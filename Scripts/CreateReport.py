@@ -26,9 +26,15 @@ ElfGcov = "C:\\BrAutomation\\AS%(Major)s%(Minor)s\\AS\\gnuinst\\V6.3.0\\4.9\\bin
 Projectdir = os.path.join( os.getcwd() , '..\\UnitTestWithCodeCoverage\\')
 CodeCoverageSaveDir = os.path.join(Projectdir , 'CodeCoverage'  )
 
+CleanConsole = True
+
 # --------------------------------------------------------------------------------------------------------------------------------------------
 # Don't change past this line !  
 # --------------------------------------------------------------------------------------------------------------------------------------------
+
+print("-----------------------------------------")
+print("Running")
+print("-----------------------------------------")
 
 # Clean old CodeCoverageSaveDir !
 if os.path.isdir( CodeCoverageSaveDir ):
@@ -46,3 +52,15 @@ for fname in glob.glob(pattern, recursive=True):
 
 # call gcovr
 os.system("py -m gcovr -g -k -v --root "+ CodeCoverageSaveDir +"\\..\\ --html --html-details -o report.html")
+
+
+# Remove all junk
+if CleanConsole:
+    os.system('cls')
+
+# Report something 
+print("-----------------------------------------")
+print("HTML report is created")
+print("File(s) stored at : %s" % os.path.abspath(CodeCoverageSaveDir))
+print("-----------------------------------------")
+input("Press ENTER to continue.")
