@@ -32,11 +32,9 @@ The following software parts are required if you want to follow all 'Usage' step
 ## Usage Demo project
 1. Compile and run the project so that the tests are completed ( Make sure that the all tests are preformed )
 	- The data should now be created.
-	
-2. Edit the 'CreateSomeReports.bat' with the correct path for your system. 
-    - Run the 'CreateSomeReports.bat'
-    - Now a HTML page is created with the coverage report. 
-	
+
+2. Run the 'CreateReport.py'. This will search for the .gcda files and creates a coverage report. 
+
 	![SampleCodeCoverage](Doc/SampleCoverage.jpg)
 	![SampleCodeCoverageFromFunction](Doc/SampleCoverageFunction.jpg)
 
@@ -53,8 +51,7 @@ The following software parts are required if you want to follow all 'Usage' step
 	- ( Or remove the USB device if u preformed the optional step )
 6. Merge the download files with the temp folder of your project.
 
-7. Edit the 'CreateSomeReports.bat' with the correct path for your system and Run the file. 
-    - Now a HTML page is created with the coverage report.
+7. Run the 'CreateReport.py'. This will search for the .gcda files and creates a coverage report. 
 
 ## Tested
 Used the following configuration and hardware to test the library function.
