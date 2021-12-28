@@ -1,0 +1,14 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: SPL_CalcTest
+ * Author: B+R
+ ********************************************************************
+ * Local variables of program SPL_CalcTest
+ * General variables - do not change
+ ********************************************************************)
+(*Describe the test*)
+VAR
+	Testsuite : UtMgrTestSuite := (Name:='StaticCLibTest',Description:='Tests for Static C Library',Type:=utMgrTEST_TYPE_C,MetaInformation:='');
+END_VAR
+(*Variables used in the tests*)

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Physical xmlns="http://br-automation.co.at/AS/Physical">
+  <Objects>
+    <Object Type="Configuration">TS_UnitTest_Sample</Object>
+    <Object Type="Configuration">X20CP1586</Object>
+    <Object Type="Configuration">X20CP0484</Object>
+  </Objects>
+</Physical>

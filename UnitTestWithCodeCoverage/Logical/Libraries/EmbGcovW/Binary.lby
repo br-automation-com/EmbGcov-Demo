@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="1.00.0" SubType="Binary" Description="Embedded Gcov support" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File Description="Exported functions and function blocks">EmbGcovW.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsMem" />
+    <Dependency ObjectName="sys_lib" />
+    <Dependency ObjectName="FileIO" />
+  </Dependencies>
+</Library>

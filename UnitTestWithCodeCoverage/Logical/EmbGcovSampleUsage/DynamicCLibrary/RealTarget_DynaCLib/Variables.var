@@ -1,0 +1,4 @@
+VAR
+	DynamicCLibFooFub_0 : DynamicCLibFooFub;
+	saveCoverage : BOOL;
+END_VAR

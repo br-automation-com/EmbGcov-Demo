@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.9.2.46 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="PC_any" Type="PC_any" Version="1.1.1.0" OrderNumber="PC">
+    <Parameter ID="ConfigurationID" Value="UnitTestWithCodeCoverage_TS_UnitTest_Sample" />
+    <Parameter ID="Cyclic4Duration" Value="10000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="EmbGcovFileDevice" />
+    <Parameter ID="FileDevicePath1" Value="C:/" />
+  </Module>
+</Hardware>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="ANSIC" Description="Tests SPLMyCalc with library &quot;UnitTest&quot;">SPL_CalcTest</Object>
+    <Object Type="Program" Language="ANSIC" Description="Examples how to avoid duplicated test code (advanced)">SPL_CalcTest_Variants</Object>
+    <Object Type="File" Description="Updates test programs within the current package">Update_TestPrograms_in_current_location.bat</Object>
+  </Objects>
+</Package>

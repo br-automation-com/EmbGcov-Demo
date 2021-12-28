@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library SubType="ANSIC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported functions and function blocks">DynaCLib.fun</File>
+    <File>DynamicCLibFooFub.c</File>
+    <File>DynaCLibGcovSave.cpp</File>
+    <File>DynaCLibGcovSaveEmb.cpp</File>
+    <File>heap_size.cpp</File>
+  </Files>
+</Library>
