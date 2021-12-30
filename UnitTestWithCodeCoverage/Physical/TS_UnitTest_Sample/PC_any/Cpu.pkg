@@ -9,7 +9,7 @@
   </Objects>
   <Configuration>
     <AutomationRuntime Version="C4.90" />
-    <Build AnsicAdditionalBuildOptions="" AnsicIncludeDirectories="\Logical\TS_UnitTest\Libraries\UnitTest\,\Logical\TS_UnitTest\Samples\Framework_Extension_With_Custom_Asserts\LibAssert1\,\Logical\Libraries\EmbGcov\,\Logical\Libraries\AR_rtk\,\Logical\EmbGcovSampleUsage\StaticCLibrary\StaticCLib\,\Logical\EmbGcovSampleUsage\CppLibrary\CppFooLib\" GccVersion="6.3.0" GeneratePPCode="false" PreBuildStep="" />
+    <Build AnsicAdditionalBuildOptions="" AnsicIncludeDirectories="\Logical\TS_UnitTest\Libraries\UnitTest\,\Logical\TS_UnitTest\Samples\Framework_Extension_With_Custom_Asserts\LibAssert1\,\Logical\Libraries\EmbGcov\,\Logical\EmbGcovSampleUsage\StaticCLibrary\StaticCLib\,\Logical\EmbGcovSampleUsage\CppLibrary\CppFooLib\" GccVersion="6.3.0" GeneratePPCode="false" PreBuildStep="" />
     <DefaultTargetMemory Tasks="UserROM" />
     <Transfer GenerateRUCPackage="true" RunUnitTestsAfterTransfer="True" />
     <OnlineConfiguration Name="ARsim_TCPIP" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=1" ConnectionParameters="/COMT=2500 /RT=1000 /AM=* /DAIP=127.0.0.1 /REPO=11160 /ANSL=1" Description="" />

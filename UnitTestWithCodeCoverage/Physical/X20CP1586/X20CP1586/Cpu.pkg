@@ -20,7 +20,7 @@
   </Objects>
   <Configuration ModuleId="X20CP1586">
     <AutomationRuntime Version="C4.90" />
-    <Build AnsicAdditionalBuildOptions="" AnsicIncludeDirectories="\Logical\TS_UnitTest\Libraries\UnitTest\,\Logical\TS_UnitTest\Samples\Framework_Extension_With_Custom_Asserts\LibAssert1\,\Logical\Libraries\EmbGcov\,\Logical\Libraries\AR_rtk\" GccVersion="6.3.0" GeneratePPCode="false" PreBuildStep="" />
+    <Build AnsicAdditionalBuildOptions="" AnsicIncludeDirectories="\Logical\TS_UnitTest\Libraries\UnitTest\,\Logical\TS_UnitTest\Samples\Framework_Extension_With_Custom_Asserts\LibAssert1\,\Logical\Libraries\EmbGcov\" GccVersion="6.3.0" GeneratePPCode="false" PreBuildStep="" />
     <DefaultTargetMemory Tasks="UserROM" />
     <Vc FirmwareVersion="V4.72.3" />
   </Configuration>
