@@ -49,14 +49,17 @@ The following software parts are required if you want to follow all 'Usage' step
 	- If your target has a CF or CFAST you could retrieve the data with a USB reader.
 	- Or download the files with FTP
 	- ( Or remove the USB device if u preformed the optional step )
+	![gcdaFilesOnX20](Doc/gcdaFilesOnX20.jpg)
 6. Merge the download files with the temp folder of your project.
 
 7. Run the 'CreateReport.py'. This will search for the .gcda files and creates a coverage report. 
+	![SampleCodeCoverageX20](Doc/SampleCoverageX20.jpg)
+	![SampleCodeCoverageFromFunctionX20](Doc/SampleCoverageFunctionX20.jpg)
 
 ## Tested
 Used the following configuration and hardware to test the library function.
 
 - Automation Studio 4.9.2.46 
 	- ARSim 		AR C4.90 
-	- X20CP1586		AR C4.90
-	- X20CP0484		AR C4.90
+	- X20CPx58x		AR C4.90
+	- X20CP048x		AR C4.90
