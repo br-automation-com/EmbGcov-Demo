@@ -11,7 +11,8 @@
     <Object Type="Library" Language="binary" Description="The SYS_LIB library contains functions for memory management and operating system manipulation as well as hardware-specific functions.">sys_lib</Object>
     <Object Type="Library" Language="binary" Description="The FileIO library provides function blocks for file handling.">FileIO</Object>
     <Object Type="Library" Language="binary" Description="The AsMem library makes it possible to manage memory blocks located in large memory areas (memory partitions).">AsMem</Object>
-    <Object Type="Library" Language="ANSIC">EmbGcov</Object>
+    <Object Type="Library" Language="ANSIC" Description="Embedded Gcov support">EmbGcov</Object>
     <Object Type="Library" Language="Binary" Description="Embedded Gcov support">EmbGcovW</Object>
+    <Object Type="Library" Language="binary" Description="The AsIODiag library provides functions for creating and evaluating I/O module information.">AsIODiag</Object>
   </Objects>
 </Package>

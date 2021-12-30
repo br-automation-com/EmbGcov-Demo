@@ -23,7 +23,15 @@ void _CYCLIC ProgramCyclic(void)
 	{
 		saveCoverage = 0 ;
 		
-		DynamicCLibGcovSave(); // This saves the libary CodeCoverage ( Every dynamic library has its own coverage memory that should be saved )
+		// Detect if we are on a simulated PLC -> Change save option
+		if( DiagCpuIsARsim())
+		{
+			DynamicCLibGcovSave(); // This saves the libary CodeCoverage ( Every dynamic library has its own coverage memory that should be saved )			
+		}
+		else
+		{
+			DynamicCLibGcovSaveEmb(); // This saves the libary CodeCoverage ( Every dynamic library has its own coverage memory that should be saved )			
+		}
 		//EmbGcovExit(); // This saves the UnitTest task CodeCoverage ( IN THIS SAMPLE PROGRAM THE SAVING DOESNT WORK BECAUSE THIS IS A PURE C TASK ! IF YOU UNCOMMENT THIS LINE YOU WILL GET ERRORS !)
 	}
 }
