@@ -51,7 +51,7 @@ for fname in glob.glob(pattern, recursive=True):
         call([ ElfGcov , "-bc" , fname ])
 
 # call gcovr
-os.system("py -m gcovr -g -k -v --root "+ CodeCoverageSaveDir +"\\..\\ --html --html-details -o report.html")
+os.system("py -m gcovr -g -k -v --root \""+ CodeCoverageSaveDir +"\"\\..\\ --html --html-details -o report.html")
 
 
 # Remove all junk
