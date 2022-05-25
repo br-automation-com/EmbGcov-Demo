@@ -57,7 +57,7 @@ The following software parts are required if you want to follow all 'Usage' step
 	![SampleCodeCoverageX20](Doc/SampleCoverageX20.jpg)
 	![SampleCodeCoverageFromFunctionX20](Doc/SampleCoverageFunctionX20.jpg)
 	
-##Use libraries in own project
+## Use libraries in own project
 1. Create or use an existing project
 2. Add the Unittest solution with version 2.0.1.65 
 3. Add the EmbGcov and EmbGcovW library ( Make sure to deploy both libraries in the PLC )
