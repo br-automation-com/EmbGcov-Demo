@@ -12,7 +12,7 @@ It contains a small C/C++ tasks and libraries with the help of the UnitTesting p
 * [Usage](#Usage)
 * [Usage Demo project](#usage-Demo-project)
 * [Usage Demo project on a Real Target](#Usage-Demo-project-on-a-Real-Target)
-* [Use libraries in own project(#Use-libraries-in-own-project)
+* [Use libraries in own project](#Use-libraries-in-own-project)
 * [Tested](#Tested)
 
 
